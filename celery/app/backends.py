@@ -17,6 +17,8 @@ BACKEND_ALIASES = {
     'cache': 'celery.backends.cache:CacheBackend',
     'redis': 'celery.backends.redis:RedisBackend',
     'rediss': 'celery.backends.redis:RedisBackend',
+    'rediscluster': 'celery.backends.rediscluster:RedisClusterBackend',
+    'redisclusters': 'celery.backends.rediscluster:RedisClusterBackend',
     'sentinel': 'celery.backends.redis:SentinelBackend',
     'mongodb': 'celery.backends.mongodb:MongoBackend',
     'db': 'celery.backends.database:DatabaseBackend',

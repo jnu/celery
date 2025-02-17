@@ -10,5 +10,4 @@ class RedisClusterBackend(RedisBackend):
 
     def _params_from_url(self, url, defaults):
         url = url.replace("cluster", "")
-        return super()._params.from_url(url, defaults)
-
+        return super()._params_from_url(url, defaults)
